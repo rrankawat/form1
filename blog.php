@@ -1,5 +1,6 @@
 <?php
 
+// mysqli connection
 $connect = mysqli_connect("localhost", "root", "", "form1");
 
 if(isset($_POST['title']) && isset($_POST['body'])) {
